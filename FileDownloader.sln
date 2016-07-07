@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDownloader", "src\FileDownloader.csproj", "{DEB25DF4-20AF-4F85-8920-C3E14E147D9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDownloader.UnitTest", "test\FileDownloader.UnitTest.csproj", "{8DC80AFA-4F40-4961-8A3F-D92F27CB7448}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEB25DF4-20AF-4F85-8920-C3E14E147D9D}.Debug|x86.ActiveCfg = Debug|x86
+		{DEB25DF4-20AF-4F85-8920-C3E14E147D9D}.Debug|x86.Build.0 = Debug|x86
+		{DEB25DF4-20AF-4F85-8920-C3E14E147D9D}.Release|x86.ActiveCfg = Release|x86
+		{DEB25DF4-20AF-4F85-8920-C3E14E147D9D}.Release|x86.Build.0 = Release|x86
+		{8DC80AFA-4F40-4961-8A3F-D92F27CB7448}.Debug|x86.ActiveCfg = Debug|x86
+		{8DC80AFA-4F40-4961-8A3F-D92F27CB7448}.Debug|x86.Build.0 = Debug|x86
+		{8DC80AFA-4F40-4961-8A3F-D92F27CB7448}.Release|x86.ActiveCfg = Release|x86
+		{8DC80AFA-4F40-4961-8A3F-D92F27CB7448}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
