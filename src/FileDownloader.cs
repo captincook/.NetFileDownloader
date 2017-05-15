@@ -369,6 +369,8 @@ namespace FileDownloader
                 this.logger.Debug("Downloader scheduled next attempt in {0} seconds.", DelayBetweenAttempts.TotalSeconds);
                 return true;
             }
+
+            readyToDownload.Set();
             return false;
         }
 
