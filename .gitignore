@@ -4,5 +4,6 @@ Thumbs.db
 #Ignore files build by Visual Studio
 bin/
 TestResults/
-src/obj/
-test/obj/
+**/obj/
+**/obj/
+.vs
