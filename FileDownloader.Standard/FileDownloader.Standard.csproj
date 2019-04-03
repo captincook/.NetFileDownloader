@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>NetFileDownloader.Standard</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>.NetFileDownloader ported to .NET Standard 2</Description>
+    <PackageTags>http download</PackageTags>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/andrewhunt12/.NetFileDownloader</PackageProjectUrl>
+    <Authors>Andrew Hunt, Avira Operations GmbH &amp; Co. KG</Authors>
+    <Owners>andrewhunt12</Owners>
+    <Company></Company>
+    <Product>NetFileDownloader.Standard</Product>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 </Project>
