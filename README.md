@@ -1,7 +1,7 @@
-﻿## .NET File Downloader
+﻿## .NET File Downloader (.NET Standard Version)
 This is a HTTP(S) file downloader with support of caching and resuming of partially downloaded files. 
 The main goal of .NET File Downloader is to facilitate downloading of big files on bad internet connections. It supports resuming of partially downloaded files. So if the download is interrupted and restarted, only the remaining part of file would be downloaded again.
-#### Why not simply use the file download functionality from the .NET Framework? 
+#### Why not simply use the file download functionality from the .NET?
 Unfortunately System.Net.WebClient.DownloadFile() has no support for resuming downloads. It might work fine for small files or over stable internet connections. Once you want to download bigger files via poor internet connections it is not sufficient anymore and downloads will fail.
 ### License
 FileDownloader is open source software, licensed under the terms of MIT license. See [LICENSE](LICENSE) for details.
@@ -54,4 +54,4 @@ FileDownloader is open source software, licensed under the terms of MIT license.
  In order to resume download, IDownloadCache should be provided to the FileDownloader constructor. DownloadCache is used to store partially downloaded files. To resume a download, simply call one of the download file methods with the same URL.
 
 ## How to build FileDownlader
-At least Visual Studio 2013 and .NET Framework 3.5 are required to build. There are no other dependencies. 
+At least Visual Studio 2017 and .NET Standard 2.0 are required to build. There are no other dependencies. 
